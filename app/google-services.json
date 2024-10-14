@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317430972512",
+    "project_id": "appdocsach-e2c40",
+    "storage_bucket": "appdocsach-e2c40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317430972512:android:12c57e5a6b1ab69edcc305",
+        "android_client_info": {
+          "package_name": "com.example.appdocsach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcv_gXM8HoovXaKeXO9b9U2kitYQcV7Gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

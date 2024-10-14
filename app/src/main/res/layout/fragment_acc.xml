@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/detail_user"
+    tools:context=".Fragment.AccFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+        <LinearLayout
+            android:id="@+id/user_profile"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="20dp"
+            android:background="@drawable/bg_text"
+            android:backgroundTint="@color/main_color"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/avatar"/>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/edt_name"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    />
+                <TextView
+                    android:id="@+id/edt_email"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_text"
+            android:backgroundTint="@color/main_color"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/myEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:padding="20dp"
+                android:text="Đổi mật khẩu"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:cursorVisible="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+            <TextView
+                android:id="@+id/myEditText3"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:padding="20dp"
+                android:text="Cài đặt"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:cursorVisible="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+            <TextView
+                android:id="@+id/myEditText4"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:padding="20dp"
+                android:gravity="center_vertical"
+                android:text="Xóa tài khoản"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:cursorVisible="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnout"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_account"
+            android:textColor="@color/main_color"
+            android:textSize="20sp"
+            android:backgroundTintMode="multiply"
+            android:textStyle="bold"
+            android:text="Đăng xuất"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
